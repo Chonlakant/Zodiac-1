@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@drawable/images" >
+
+    <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:gravity="center">
+
+		<ImageButton
+		    android:id="@+id/imageButton1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:onClick="onZodiacClick"
+		    android:paddingBottom="15dp"
+		    android:paddingRight="10dp"
+		    android:src="@drawable/ram_selector" >
+</ImageButton>
+
+		<ImageButton
+		    android:id="@+id/imageButton2"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:onClick="onZodiacClick"
+		    android:paddingBottom="15dp"
+		    android:src="@drawable/bull_selector" >
+</ImageButton>
+
+		<ImageButton
+		    android:id="@+id/imageButton3"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:onClick="onZodiacClick"
+		    android:paddingBottom="15dp"
+		    android:paddingLeft="10dp"
+		    android:src="@drawable/twins_selector" >
+</ImageButton>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:gravity="center">
+
+		<ImageButton
+		    android:id="@+id/imageButton4"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:onClick="onZodiacClick"
+		    android:paddingBottom="15dp"
+		    android:paddingRight="10dp"
+		    android:src="@drawable/cancer_selector" >
+</ImageButton>
+
+		<ImageButton
+		    android:id="@+id/imageButton5"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:onClick="onZodiacClick"
+		    android:paddingBottom="15dp"
+		    android:src="@drawable/leo_selector" >
+</ImageButton>
+
+		<ImageButton
+		    android:id="@+id/imageButton6"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:onClick="onZodiacClick"
+		    android:paddingBottom="15dp"
+		    android:paddingLeft="10dp"
+		    android:src="@drawable/maiden_selector" >
+</ImageButton>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:gravity="center">
+
+		<ImageButton
+		    android:id="@+id/imageButton7"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:onClick="onZodiacClick"
+		    android:paddingRight="10dp"
+		    android:paddingTop="15dp"
+		    android:src="@drawable/scales_selector" >
+</ImageButton>
+
+		<ImageButton
+		    android:id="@+id/imageButton8"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:onClick="onZodiacClick"
+		    android:paddingTop="15dp"
+		    android:src="@drawable/scorpio_selector" >
+</ImageButton>
+
+		<ImageButton
+		    android:id="@+id/imageButton9"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:onClick="onZodiacClick"
+		    android:paddingLeft="10dp"
+		    android:paddingTop="15dp"
+		    android:src="@drawable/sagi_select" >
+</ImageButton>
+	</TableRow>
+	<TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:gravity="center">
+
+		<ImageButton
+		    android:id="@+id/imageButton10"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:onClick="onZodiacClick"
+		    android:paddingRight="10dp"
+		    android:paddingTop="15dp"
+		    android:src="@drawable/seagoat_selector" >
+</ImageButton>
+
+		<ImageButton
+		    android:id="@+id/imageButton11"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:onClick="onZodiacClick"
+		    android:paddingTop="15dp"
+		    android:src="@drawable/aqua_selector" >
+</ImageButton>
+
+		<ImageButton
+		    android:id="@+id/imageButton12"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:background="@null"
+		    android:onClick="onZodiacClick"
+		    android:paddingLeft="10dp"
+		    android:paddingTop="15dp"
+		    android:src="@drawable/pisces_selector" >
+</ImageButton>
+	</TableRow>
+</TableLayout>

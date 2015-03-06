@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/PreferencesTheme" >
+
+    <CheckBoxPreference
+        android:defaultValue="false"
+        android:key="use_notification"
+        android:summary="Check if you want to receive a notification reminder about your daily horoscope"
+        android:title="Use a Notification" />
+
+    <com.koncius.zodiac.TimePreference
+        android:defaultValue="12:00"
+        android:dependency="use_notification"
+        android:key="alarm_time"
+        android:summary="Set your desired time for the notification"
+        android:title="Notification Alarm Time" />
+
+</PreferenceScreen>
